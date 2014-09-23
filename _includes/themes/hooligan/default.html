@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>
       {% if page.title %}
-        {{ page.title }} - 
+        {{ page.title }} -
       {% endif %}
       {{ site.title }}
     </title>
@@ -56,14 +56,12 @@
                 <li class="divider-vertical"></li>
                 {% if site.author.github %}
                 <li>
-                  <a href="https://github.com/{{ site.author.github }}" class="zocial github icon" target="_blank">
-                    <span class="hidden-desktop">Github</span>
-                  </a>
+                  <a href="https://github.com/{{ site.author.github }}" class="zocial github icon" target="_blank"><span class="hidden-desktop">Github</span></a>
                 </li>
                 {% endif %}
                 {% if site.author.googleplus %}
                 <li>
-                  <a href="https://plus.google.com/{{ site.author.googleplus }}" class="zocial googleplus icon" target="_blank">
+                  <a href="https://plus.google.com/+{{ site.author.googleplus }}" class="zocial googleplus icon" target="_blank">
                     <span class="hidden-desktop">Google+</span>
                   </a>
                 </li>
@@ -82,18 +80,9 @@
                   </a>
                 </li>
                 {% endif %}
-                {% if site.author.linkedin %}
+                {% if site.author.lastfm %}
                 <li>
-                  <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="zocial linkedin icon" target="_blank">
-                    <span class="hidden-desktop">LinkedIn</span>
-                  </a>
-                </li>
-                {% endif %}
-                {% if site.author.feedburner %}
-                <li>
-                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank">
-                    <span class="hidden-desktop">FeedBurner</span>
-                  </a>
+                  <a href="http://www.last.fm/user/{{ site.author.lastfm }}" class="zocial lastfm icon" target="_blank"><span class="hidden-desktop">last.fm</span></a>
                 </li>
                 {% endif %}
               </ul>
@@ -114,8 +103,8 @@
     <footer>
       <div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
+          | Bu site <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>,
+          <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a> ve ♥ ile oluşturuldu. <a href="https://github.com">GitHub</a> sunucularında barınmaktadar.
         </p>
       </div>
     </footer>
