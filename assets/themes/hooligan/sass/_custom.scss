@@ -1,0 +1,17 @@
+/* This is for your Custom Content. */
+#page-wrap .container:first-child{
+	width:100%;
+	padding:0;
+}
+
+footer .container{
+	text-align:center;
+}
+
+.brand{
+	font-family:'Advent Pro', sans-serif;
+	font-size:2rem !important;
+	padding:0 10px !important;
+	color:#ff0000 !important;
+	font-weight:bold;
+}
