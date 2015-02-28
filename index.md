@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Algün Akgündüz
-tagline: Yazılım ve Müzik
+tagline: <a href="/tags.html#yazılım-ref">Yazılım</a> ve <a href="/tags.html#müzik-ref">Müzik</a>
 ---
 {% include JB/setup %}
 
